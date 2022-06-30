@@ -19,7 +19,7 @@ header {
   align-items: center;
   height: 92px;
   padding: 0 25px;
-  background:#3C3A39;
+  background: #3c3a39;
 }
 
 .logo {
@@ -45,7 +45,7 @@ button {
   padding: 120px 24px;
   gap: 12px;
   height: 100%;
-  background:#1C1A19;
+  background: "#1c1a19";
   background-image: url(./image/Groups.png);
   background-repeat: no-repeat;
   background-position: 100% 120%;
@@ -53,16 +53,16 @@ button {
 
 .headerline {
   height: 124px;
-  font-family: 'Roboto' ;
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: "#ff6b00"                               ;
 }
 
-.sub-headerline{
+.sub-headerline {
   height: 92px;
   font-family: 'Roboto' sans-serif;
   font-weight: 700;
@@ -72,7 +72,7 @@ button {
 }
 
 .content-p {
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
