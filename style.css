@@ -10,7 +10,6 @@
 
 body {
   width: 375px;
-  background-color: lightgray;
 }
 
 header {
@@ -45,7 +44,7 @@ button {
   padding: 120px 24px;
   gap: 12px;
   height: 100%;
-  background: "#1c1a19";
+  background: #1C1A19;
   background-image: url(./image/Groups.png);
   background-repeat: no-repeat;
   background-position: 100% 120%;
@@ -59,7 +58,7 @@ button {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: "#ff6b00";
+  color: #FF6B00;
 }
 
 .sub-headerline {
@@ -82,7 +81,7 @@ button {
 #social-media {
   display: flex;
   gap: 1rem;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 15px;
 }
 
