@@ -48,7 +48,9 @@ section {
 .headline-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 50px 20px;
 }
 
 .headerline {
@@ -58,7 +60,6 @@ section {
   font-size: 56px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  padding: 40px 14px;
 }
 
 .sub-headerline {
@@ -80,4 +81,5 @@ section {
 #social-media {
   display: flex;
   gap: 1rem;
+  padding: 0 20px;
 }
