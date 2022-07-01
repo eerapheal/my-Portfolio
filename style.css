@@ -41,13 +41,13 @@ button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 190px 24px;
   gap: 12px;
   height: 100%;
   background: #1c1a19;
   background-image: url(./image/Groups.png);
   background-repeat: no-repeat;
-  background-position: 100% 120%;
+  background-position: 100% 125%;
 }
 
 .headerline {
@@ -59,6 +59,7 @@ button {
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  padding-bottom: 40%;
 }
 
 .sub-headerline {
@@ -74,14 +75,14 @@ button {
   font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   color: #f1f1f1;
 }
 
 #social-media {
   display: flex;
   gap: 1rem;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 15px;
 }
 
