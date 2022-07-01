@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +26,7 @@ header {
   align-items: center;
   text-align: center;
   color: #f1f1f1;
-  font-family: 'Roboto' sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 680;
   font-size: 17px;
   line-height: 24px;
@@ -55,7 +53,7 @@ button {
 
 .headerline {
   height: 124px;
-  font-family: 'Roboto' sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -66,7 +64,7 @@ button {
 
 .sub-headerline {
   height: 92px;
-  font-family: 'Roboto' sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -74,7 +72,7 @@ button {
 }
 
 .content-p {
-  font-family: 'Roboto' sans-serif;
+  font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
