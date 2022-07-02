@@ -116,7 +116,7 @@ button {
 }
 
 .sub-h3 {
-  font-family: 'Crete Round' serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -281,7 +281,7 @@ button {
   font-weight: 400;
   font-size: 22px;
   line-height: 60px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .fra-simg {
@@ -294,14 +294,14 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .line2 {
   height: 1px;
   width: 90%;
   margin: 65px auto;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
 .mrre {
