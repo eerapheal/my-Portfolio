@@ -179,8 +179,8 @@ button {
 .grid-2-items ul {
   display: flex;
   padding: 0 25px;
-  gap: 15px;
-} 
+  gap: 12px;
+}
 
 .item-bt {
   text-align: center;
