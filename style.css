@@ -179,7 +179,8 @@ button {
 .grid-2-items ul {
   display: flex;
   padding: 0 25px;
-}
+  gap: 15px;
+} 
 
 .item-bt {
   text-align: center;
@@ -211,10 +212,6 @@ button {
   color: #f1f1f1;
   padding: 0 25px;
   line-height: 25px;
-}
-
-.grid-2-items ul {
-  gap: 15px;
 }
 
 .grid-2-items li {
