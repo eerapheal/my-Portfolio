@@ -280,7 +280,6 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 60px;
   color: #fff;
 }
 
@@ -288,13 +287,16 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
   gap: 20px;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
+}
+
+.p-color {
   color: #fff;
+  line-height: 90px;
 }
 
 .line2 {
