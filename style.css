@@ -37,7 +37,7 @@ button {
   outline: none;
 }
 
-section {
+.section-fir {
   background-color: #1c1a19;
   background-image: url(./image/Groups.png);
   background-repeat: no-repeat;
@@ -82,4 +82,149 @@ section {
   display: flex;
   gap: 1rem;
   padding: 0 20px;
+}
+/* section2 css */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-heading {
+padding: 20%;
+}
+
+.second.sec-heading {
+  font-family: 'Crete Round' sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+}
+
+.img-sct2 {
+  padding: 0 0 25px;
+}
+
+.section-div2 {
+  padding: 0 25px;
+}
+
+.sub-h3 {
+  align-items: center;
+  font-family: 'Crete Round' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #091E42;
+  padding:0 25px 25px;
+} 
+
+.section-div-p { 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+   line-height: 24px;
+  padding: 0 25px 25px; 
+}
+
+.grid1 {
+  display:flex;
+  gap: 15px;
+  padding:0 25px 25px;
+}
+
+.grid1 li {
+  border: 1px solid #8993A4;
+  padding: 14px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+background-color: #ffffff;
+
+}
+
+.bnt-top {
+  padding:  20px;
+  /* align-items: center; */
+  /* padding-top:  20px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  /* border: 1px solid black; */
+  text-align: center;
+  background-color: blue;
+  color: #ffffff;
+}
+
+.grid-2 {
+  padding: 0 25px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./image/Img-Placeholder2.png);
+  height:50vh;
+  width:87%;
+}
+
+.grid-2-items {
+  padding-top: 90px;
+  width: 0 90vh;
+}
+
+.grid-2-items ul {
+  display:flex;
+}
+
+.item-bt {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color:#ff6b00;
+  color: #ffffff;
+  /* border: 1px solid black; */
+  padding: 20px 28%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.grid-2h4 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.grid-2-p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.grid-2-items ul {
+  gap: 15px;
+
+}
+
+.grid-2-items li {
+  /* border: 1px solid black; */
+  padding: 10px 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.24);
+
+  /* background: transparent; */
 }
