@@ -10,6 +10,7 @@
 
 body {
   width: 375px;
+  background-color: lightgrey;
 }
 
 header {
@@ -88,38 +89,36 @@ button {
 .section2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.second-heading {
-padding: 20%;
+  background-color: white;
+  padding: 25px;
+  gap: 20px;
 }
 
-.second.sec-heading {
-  font-family: 'Crete Round' sans-serif;
+.second-sec-heading {
+  font-family: 'Crete Round';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
 line-height: 52px;
-display: flex;
-align-items: center;
-}
-
-.img-sct2 {
-  padding: 0 0 25px;
+text-align: center;
 }
 
 .section-div2 {
-  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.img-sct2 {
+  width: 100%;
 }
 
 .sub-h3 {
-  align-items: center;
   font-family: 'Crete Round' sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   color: #091E42;
-  padding:0 25px 25px;
 } 
 
 .section-div-p { 
@@ -127,14 +126,12 @@ align-items: center;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-   line-height: 24px;
-  padding: 0 25px 25px; 
+  line-height: 24px;
 }
 
 .grid1 {
   display:flex;
   gap: 15px;
-  padding:0 25px 25px;
 }
 
 .grid1 li {
@@ -159,29 +156,33 @@ background-color: #ffffff;
   font-size: 17px;
   /* border: 1px solid black; */
   text-align: center;
-  background-color: blue;
+  background-color: #ff6b00;
   color: #ffffff;
 }
 
+.line {
+  margin-bottom: 80px;
+  border: 1px solid #ff6b00;
+}
+
 .grid-2 {
-  padding: 0 25px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./image/Img-Placeholder2.png);
-  height:50vh;
-  width:87%;
+  width: 324px;
 }
 
 .grid-2-items {
-  padding-top: 90px;
-  width: 0 90vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .grid-2-items ul {
   display:flex;
+  padding: 0 25px;
 }
 
 .item-bt {
-  display: grid;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   background-color:#ff6b00;
@@ -192,6 +193,7 @@ background-color: #ffffff;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  width: 100%;
 }
 
 .grid-2h4 {
@@ -200,6 +202,7 @@ background-color: #ffffff;
   font-weight: 400;
   font-size: 40px;
   color: #ffffff;
+  padding: 0 25px;
 }
 
 .grid-2-p {
@@ -208,6 +211,7 @@ background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   color: #f1f1f1;
+  padding: 0 25px;
 }
 
 .grid-2-items ul {
