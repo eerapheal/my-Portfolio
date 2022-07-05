@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   text-decoration: none;
   list-style: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
@@ -96,7 +96,7 @@ button {
 }
 
 .second-sec-heading {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -116,7 +116,7 @@ button {
 }
 
 .sub-h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -124,7 +124,7 @@ button {
 }
 
 .section-div-p {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -139,7 +139,7 @@ button {
 .grid1 li {
   border: 1px solid #8993a4;
   padding: 14px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -148,7 +148,7 @@ button {
 }
 
 .bnt-top {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -165,7 +165,12 @@ button {
 }
 
 .grid-2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./image/Img-Placeholder2.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(./image/Img-Placeholder2.png);
   width: 324px;
 }
 
@@ -188,7 +193,7 @@ button {
   background-color: #ff6b00;
   color: #fff;
   padding: 20px 28%;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -196,7 +201,7 @@ button {
 }
 
 .grid-2h4 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -205,7 +210,7 @@ button {
 }
 
 .grid-2-p {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -216,7 +221,7 @@ button {
 
 .grid-2-items li {
   padding: 10px 15px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -233,7 +238,7 @@ button {
 }
 
 .sec-3-div-h1 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -244,7 +249,7 @@ button {
 }
 
 .sec-3-div-p {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -254,7 +259,7 @@ button {
 }
 
 .sec-3-div-btn {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -273,7 +278,7 @@ button {
 }
 
 .skills li {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -285,7 +290,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -308,3 +313,22 @@ button {
   background-repeat: no-repeat;
   background-position: 100% 35%;
 }
+
+.Contact-Me {
+  display: grid;
+  align-items: flex-start;
+  padding: 120px 24px;
+  row-gap: 58px;
+  background-color: #fff;
+}
+
+.form-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+  text-align: center;
+}
+
+
