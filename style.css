@@ -348,3 +348,10 @@ button {
   background-color: #ff6b00;
   padding: 12px;
 }
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #172b4d;
+}
