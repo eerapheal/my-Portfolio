@@ -330,5 +330,21 @@ button {
   color: #172b4d;
   text-align: center;
 }
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
 
-
+.contact-btn{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+  text-align: center;
+  background-color: #ff6b00;
+  padding: 12px;
+}
