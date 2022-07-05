@@ -165,8 +165,9 @@ button {
 }
 
 .grid-2 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./image/Img-Placeholder2.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.0) 0.75%, rgba(38, 38, 38, 0.0) 61.75%), url(./image/Img-Placeholder2.png);
   width: 324px;
+  background-repeat:no-repeat;
 }
 
 .grid-2-items {
@@ -307,4 +308,8 @@ button {
   background-image: url(./image/Groups.png);
   background-repeat: no-repeat;
   background-position: 100% 35%;
+}
+
+.otline {
+  outline: none;
 }
