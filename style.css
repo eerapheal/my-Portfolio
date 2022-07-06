@@ -10,7 +10,7 @@
 
 body {
   width: 375px;
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
 }
 
 header {
@@ -41,6 +41,10 @@ button {
 .section-fir {
   background-color: #1c1a19;
   height: 500px;
+  background-image: scr;
+  background-image: url("./image/first.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .headline-div {
@@ -317,12 +321,12 @@ button {
 .Contact-Me {
   display: grid;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 120px 24px 0 24px;
   row-gap: 58px;
   background-color: #fff;
 }
 
-.form-title{
+.form-title {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
   line-height: 44px;
@@ -330,28 +334,98 @@ button {
   color: #172b4d;
   text-align: center;
 }
-.contact-form{
-  display: flex;
+
+.contact-form {
+  display: flex; 
   flex-direction: column;
-  justify-content:flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   row-gap: 20px;
+} 
+
+.email-input {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter',serif;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #979493;
+  border:none
 }
 
-.contact-btn{
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #172b4d;
-  text-align: center;
-  background-color: #ff6b00;
-  padding: 12px;
-}
-.footer {
+.name-input {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 0 25px;
-  background-color: #172b4d;
+  font-family: 'Inter',serif;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #979493;
+  border:none;
+}
+
+.msg-input {
+  border: none;
+  font-family: 'Inter, serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3C3A39;
+  background: #fbf8f7;
+}
+
+.line3 {
+  border: 1px solid #dbd8d7;
+}
+
+.line4 {
+  border: 1px solid #dfe1e6;
+  margin-top: 25%;
+}
+
+.line5 {
+  background: #0d151e;
+border-radius: 10px;
+}
+
+.form-section {
+  display: grid;
+  row-gap: 58px;
+  padding: 0 24px 0 24px;
+  color: white;
+}
+
+.contact-btn {
+  background-color: #ff6b00;
+  align-self: center;
+  width: 131px;
+  padding: 12px;
+  height: 48px;
+  gap:10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+footer {
+  display: grid;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  flex-direction:row;
+  padding: 0 20px;
+  column-gap: 24px;
+  list-style: none;
+  margin-top: 8%;
+  color: #505f79;
 }
