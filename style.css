@@ -9,8 +9,9 @@
 }
 
 body {
-  width: 375px;
-  /*background-color: lightgrey;*/
+  width: 100%;
+
+  /* background-color: lightgrey; */
 }
 
 header {
@@ -169,13 +170,15 @@ button {
 }
 
 .grid-2 {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
+      rgba(38, 38, 38, 0) 90%,
+      rgba(38, 38, 38, 0.9) 91%
     ),
     url(./image/Img-Placeholder2.png);
   width: 324px;
+  margin: auto;
 }
 
 .grid-2-items {
@@ -336,45 +339,45 @@ button {
 }
 
 .contact-form {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
   row-gap: 20px;
-} 
+}
 
 .email-input {
   display: flex;
   align-items: center;
-  font-family: 'Inter',serif;
+  font-family: 'Inter', serif;
   line-height: 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   color: #979493;
-  border:none
+  border: none;
 }
 
 .name-input {
   display: flex;
   align-items: center;
-  font-family: 'Inter',serif;
+  font-family: 'Inter', serif;
   line-height: 24px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   color: #979493;
-  border:none;
+  border: none;
 }
 
 .msg-input {
   border: none;
-  font-family: 'Inter, serif';
+  font-family: Inter, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
-  color: #3C3A39;
+  color: #3c3a39;
   background: #fbf8f7;
 }
 
@@ -389,7 +392,7 @@ button {
 
 .line5 {
   background: #0d151e;
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .form-section {
@@ -405,8 +408,8 @@ border-radius: 10px;
   width: 131px;
   padding: 12px;
   height: 48px;
-  gap:10px;
-  font-family: "Inter", sans-serif;
+  gap: 10px;
+  font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -422,10 +425,16 @@ footer {
 .social-medias {
   display: flex;
   justify-content: center;
-  flex-direction:row;
+  flex-direction: row;
   padding: 0 20px;
   column-gap: 24px;
   list-style: none;
   margin-top: 8%;
   color: #505f79;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
 }
