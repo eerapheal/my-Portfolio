@@ -336,6 +336,7 @@ button {
   letter-spacing: 0.03em;
   color: #172b4d;
   text-align: center;
+  margin-bottom: 17%;
 }
 
 .contact-form {
@@ -356,13 +357,14 @@ button {
   font-size: 15px;
   color: #979493;
   border: none;
+  margin-top: 3%;
 }
 
 .name-input {
   display: flex;
   align-items: center;
   font-family: 'Inter', serif;
-  line-height: 24px;
+  line-height: 1px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -433,8 +435,8 @@ footer {
   color: #505f79;
 }
 
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) {
   body {
     background-color: red;
   }
-}
+} */
