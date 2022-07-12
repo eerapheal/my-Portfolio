@@ -164,6 +164,14 @@ button {
   color: #fff;
 }
 
+.bnt-top:hover {
+  background-color: #e5e5e5;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 1s;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
 .line {
   margin-bottom: 80px;
   border: 1px solid #212121;
@@ -177,7 +185,8 @@ button {
       rgba(38, 38, 38, 0.9) 91%
     ),
     url(./image/Img-Placeholder2.png);
-  width: 300px;
+
+  /* width: 300px; */
   margin: auto;
   background-repeat: no-repeat;
 }
@@ -227,7 +236,7 @@ button {
   line-height: 25px;
 }
 
-.grid-2-items li {
+.grid-2-items ul li {
   padding: 10px 15px;
   font-family: "Inter", serif;
   font-style: normal;
@@ -419,6 +428,37 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+}
+
+.contact-btn:hover {
+  background-color: #e5e5e5;
+  transition-duration: 2s;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.item-bt:hover {
+  background-color: #e5e5e5;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 2s;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.grid-2-items li:hover {
+  background-color: #f55800;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 2s;
+  color: #e05855;
+  border: 1px solid #f55800;
+}
+
+.grid1 li:hover {
+  background-color: #f55800;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 1s;
+  color: #e5e5e5;
+  border: 1px solid #f55800;
 }
 
 footer {
