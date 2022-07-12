@@ -177,15 +177,17 @@ button {
       rgba(38, 38, 38, 0.9) 91%
     ),
     url(./image/Img-Placeholder2.png);
-  width: 324px;
+  width: 300px;
   margin: auto;
+  background-repeat: no-repeat;
 }
 
 .grid-2-items {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: center;
+  /* gap: 20px; */
 }
 
 .grid-2-items ul {
