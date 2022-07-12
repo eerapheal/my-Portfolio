@@ -137,6 +137,7 @@ button {
 }
 
 .grid1 {
+  float: none;
   display: flex;
   gap: 15px;
 }
