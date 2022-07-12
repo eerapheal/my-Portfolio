@@ -236,6 +236,14 @@ button {
   line-height: 25px;
 }
 
+.skills li {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+}
+
 .grid-2-items ul li {
   padding: 10px 15px;
   font-family: "Inter", serif;
@@ -292,14 +300,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.skills li {
-  font-family: "Inter", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  color: #fff;
 }
 
 .fra-simg {
