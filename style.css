@@ -14,13 +14,26 @@ body {
   /* background-color: lightgrey; */
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 45px;
   padding: 0 25px;
   background: #3c3a39;
+}
+
+#menubar {
+  /* margin: auto 10% auto auto; */
+  display: block;
+  cursor: pointer;
+}
+
+#menubar div {
+  width: 26px;
+  height: 3px;
+  background-color: white;
+  margin: 4px;
 }
 
 .logo {
@@ -477,6 +490,32 @@ footer {
 }
 
 @media all and (min-width: 768px) {
+  nav a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  nav ul {
+    display: flex;
+    margin: 2px;
+    align-items: center;
+
+  }
+
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+  }
+
+  #menubar div {
+    width: 26px;
+    height: 3px;
+    background-color: white;
+    margin: 4px;
+    display: none;
+  }
+  
   #flexs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
