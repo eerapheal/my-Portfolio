@@ -518,7 +518,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 438px;
+    padding: 0 528px;
   }
 
   #menubar div {
@@ -750,7 +750,9 @@ footer {
   .corection {
     display: flex;
     justify-content: space-around;
-    height: 480px;
+
+    /* flex-direction: ; */
+    height: 680px;
   }
 
   .skills {
@@ -760,7 +762,7 @@ footer {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 43px;
   }
 
