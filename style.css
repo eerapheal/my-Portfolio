@@ -66,7 +66,7 @@ button {
 
 .section-fir {
   background-color: #1c1a19;
-  height: 450px;
+  height: 550px;
   background-image: scr;
   background-image: url("./image/first.png");
   background-repeat: no-repeat;
@@ -120,8 +120,7 @@ button {
 .section2 {
   display: flex;
   flex-direction: column;
-
-  /* align-items:center; */
+  align-items: center;
   background-color: white;
   padding: 25px;
   gap: 20px;
@@ -536,7 +535,11 @@ footer {
   .none {
     display: hidden;
   }
-
+  nav {
+    display:flex;
+    justify-content: space-between;
+    
+  }
   nav a {
     text-decoration: none;
     color: #fff;
@@ -558,7 +561,11 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 428px;
+    /* padding: 0 428px; */
+  }
+
+  #menubar {
+    display:none;
   }
 
   #menubar div {
