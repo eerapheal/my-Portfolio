@@ -114,11 +114,14 @@ button {
 
 .sec-2 {
   background: #1c1a19;
+  margin-top: 49px;
 }
 
 .section2 {
   display: flex;
   flex-direction: column;
+
+  /* align-items:center; */
   background-color: white;
   padding: 25px;
   gap: 20px;
@@ -479,7 +482,6 @@ nav ul li:hover {
   padding: 8px 18px;
 }
 
-
 .grid-2-items li:hover {
   background-color: #f55800;
   transition: color 0.3s ease-in-out;
@@ -643,7 +645,7 @@ footer {
 
   .second-heading {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -652,6 +654,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
+    margin-right: 59px;
   }
 
   #posts {
