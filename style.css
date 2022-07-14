@@ -628,13 +628,13 @@ footer {
 
   .section-fir {
     background-image: url(./image/illustration-header.png);
-    background-size: 35%;
-    background-position: 100% -90%;
+    background-size: 45%;
+    background-position: 100% -0%;
   }
 
   .newsocial {
     position: absolute;
-    bottom: 50px;
+    bottom: 150px;
   }
 
   .newsocial ul {
@@ -677,6 +677,9 @@ footer {
 
   #posts {
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .sub-h3 {
@@ -887,4 +890,107 @@ footer {
     align-items: unset;
     margin-top: 23px;
   }
+}
+
+@media all and (min-width: 1400px) {
+#posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsocial {
+  position: absolute;
+  bottom: 50%;
+}
+
+.newsocial ul {
+  Width: 14.17px;
+  Height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-fir {
+  width: 1440px;
+  height: 800px;
+  background-color: #1c1a19;
+  background-image: url("./image/Illustration-header.png");
+  background-repeat: no-repeat;
+  background-position: 100% 99%;
+}
+
+nav {
+  height: 75px;
+  background: #3c3a39;
+  padding-top: 9px;
+}
+
+.logo {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav ul li {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.headerline  {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #f55800;
+
+}
+  
+.sub-headerline {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.content-p {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+}
+
+#social-media {
+  display: flex;
+  gap: 1rem;
+  padding: 0 30px;
+}
+
+.headline-div {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 200px 120px;
+  width: 706px;
+}
 }
