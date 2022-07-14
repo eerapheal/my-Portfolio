@@ -13,10 +13,9 @@ body {
 }
 
 nav {
-  display: flex;
-  align-items: center;
   height: 45px;
   background: #3c3a39;
+  padding-top:9px;
 }
 
 nav ul {
@@ -43,6 +42,13 @@ nav ul li {
   font-size: 15px;
 }
 
+.magin {
+  display:flex;
+  justify-content: space-around;
+  align-items: center
+
+}
+
 .logo {
   align-items: center;
   text-align: center;
@@ -61,11 +67,11 @@ button {
 
 .section-fir {
   background-color: #1c1a19;
-  height: 380px;
+  height: 450px;
   background-image: scr;
   background-image: url("./image/first.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 100% 100%;
 }
 
 .headline-div {
@@ -97,7 +103,7 @@ button {
   font-family: Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   color: #f1f1f1;
 }
 
@@ -107,7 +113,6 @@ button {
   padding: 0 20px;
 }
 
-/* Section2 css */
 .sec-2 {
   background: #1c1a19;
 }
@@ -199,6 +204,7 @@ button {
 }
 
 .grid-2 {
+  width:325px;
   background:
     linear-gradient(
       180.45deg,
@@ -206,7 +212,6 @@ button {
       rgba(38, 38, 38, 0.9) 91%
     ),
     url(./image/Img-Placeholder2.png);
-  margin: auto;
   background-repeat: no-repeat;
 }
 
@@ -228,7 +233,7 @@ button {
   letter-spacing: 0.03em;
   background-color: #ff6b00;
   color: #fff;
-  padding: 20px 28%;
+  padding: 10px 10%;
   font-family: "Inter", serif;
   font-style: normal;
   font-weight: 700;
@@ -310,9 +315,9 @@ button {
   letter-spacing: 0.03em;
   color: #fff;
   background-color: #ff6b00;
-  padding: 12px;
-  margin-right: 40px;
-  margin-top: 50px;
+  padding: 10px;
+  margin-right: 120px;
+  margin-top: 30px;
 }
 
 .skills {
@@ -340,14 +345,15 @@ button {
 .line2 {
   height: 1px;
   width: 90%;
-  margin: 65px auto;
+  margin: 200px auto;
   border: 1px solid #fff;
 }
 
 .mrre {
-  background-image: url(./image/Groups.png);
+  background-image: url(./image/Group88.png);
   background-repeat: no-repeat;
-  background-position: 100% 35%;
+  background-position: 100% 100%;
+  background-size: 50%;
 }
 
 .Contact-Me {
@@ -365,7 +371,7 @@ button {
   letter-spacing: 0.03em;
   color: #172b4d;
   text-align: center;
-  margin-bottom: 17%;
+  margin-top: 20%;
 }
 
 .contact-form {
@@ -410,6 +416,7 @@ button {
   line-height: 20px;
   color: #3c3a39;
   background: #fbf8f7;
+  height:50px;
 }
 
 .line3 {
@@ -418,7 +425,7 @@ button {
 
 .line4 {
   border: 1px solid #dfe1e6;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 .line5 {
@@ -437,8 +444,8 @@ button {
   background-color: #ff6b00;
   align-self: center;
   width: 131px;
-  padding: 12px;
-  height: 48px;
+  margin-right:118px;
+  height: 35px;
   gap: 10px;
   font-family: "Inter", serif;
   font-style: normal;
@@ -480,6 +487,24 @@ button {
   border: 1px solid #f55800;
 }
 
+nav ul li:hover {
+  background-color: #f55800;;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 2s;
+  color: #e5e5e5;
+  border: 1px solid #f55800;
+  padding: 8px 18px;
+}
+
+.logo:hover {
+  background-color: #f55800;;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 2s;
+  color: #e5e5e5;
+  border: 1px solid #f55800;
+  padding: 8px 18px;
+}
+
 footer {
   display: grid;
 }
@@ -491,11 +516,26 @@ footer {
   padding: 0 20px;
   column-gap: 24px;
   list-style: none;
-  margin-top: 8%;
+  margin-bottom: 4%;
+  margin-top: 1%;
   color: #505f79;
+
+}
+
+.item1 {
+  display: none;
 }
 
 @media all and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;  
+  }
+
+  .none {
+    display: hidden;
+  }
+  
   nav a {
     text-decoration: none;
     color: #fff;
@@ -503,7 +543,6 @@ footer {
 
   nav ul {
     display: flex;
-    margin: 2px;
     align-items: center;
   }
 
@@ -518,7 +557,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 528px;
+    padding: 0 428px;
   }
 
   #menubar div {
@@ -528,7 +567,14 @@ footer {
     margin: 4px;
     display: none;
   }
-
+  
+  nav {
+    display:flex;
+    align-items: center;
+    height: 45px;
+    background: #3c3a39;
+    padding-top:0px;
+  }
   .logo {
     display: flex;
     align-items: center;
@@ -538,7 +584,7 @@ footer {
     font-weight: 680;
     font-size: 14px;
     line-height: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
   }
 
   .headline-div {
@@ -546,30 +592,35 @@ footer {
     align-items: flex-start;
     gap: 20px;
     padding: 140px 100px;
-    width: 398px;
+    width: 566px;
   }
 
   .headerline {
     font-family: Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 60px;
     letter-spacing: 0.37px;
     color: #ff6b00;
   }
 
   .sub-headerline {
     font-family: Arial, sans-serif;
+    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 18px;
     color: #f1f1f1;
+  }
+  .section-fir {
+    background-image: url("./image/first.png");
+    background-image: none;
   }
 
   .section-fir {
     background-image: url(./image/illustration-header.png);
     background-size: 35%;
-    background-position: 100% 10%;
+    background-position: 100% -90%;
   }
 
   .newsocial {
@@ -584,33 +635,34 @@ footer {
 
   .line12 {
     height: 0;
-    width: 50%;
-    margin: 30px;
+    width: 48%;
     border: 1px solid #212121;
+    margin-bottom: 13px;
   }
 
   .second-heading {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .section-div2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
   }
 
   #posts {
-    width: 220px;
-    font-family: Arial, sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    margin-bottom: 60px;
   }
 
   .sub-h3 {
     font-family: Arial, sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 18px;
+    color: #091E42;
   }
 
   .bnt-top {
@@ -623,10 +675,12 @@ footer {
     text-align: center;
     background-color: #ff6b00;
     color: #fff;
+    margin-top: 15px;
   }
 
   .img-sct2 {
-    width: 450px;
+    width: 490px;
+    height: 300px;
   }
 
   .multi {
@@ -638,26 +692,34 @@ footer {
     margin-bottom: 10px;
     font-family: Arial, sans-serif;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 18px;
+    margin-top: 20px;
+    color: #091e42;
+  }
+
+  .grid1 {
+    margin: 0px;
+    padding:8px 8px;
   }
 
   .grid1 li {
     align-items: center;
     font-family: Arial, sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 8px;
+    color: #091e42;
   }
 
   #flexs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 2px;
   }
 
   .grid-2 {
-    width: 200px;
+    width: 270px;
     background:
       linear-gradient(
         180.45deg,
@@ -665,18 +727,20 @@ footer {
         rgba(38, 38, 38, 0.9) 91%
       ),
       url(./image/Img-Placeholder2.png);
+    
   }
 
   .grid-2h4 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .grid-2-p {
     font-size: 8px;
-    line-height: 12px;
+    line-height: 14px;
   }
 
   .item-bt {
+    display:none;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #ff6b00;
@@ -687,10 +751,31 @@ footer {
     font-size: 9px;
   }
 
+  .item1 {
+    display:flex;
+    text-align: center;
+    background-color: #ff6b00;
+    color: #fff;
+    padding:  5px 82px;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 96px;
+  }
+
+  #hidden { 
+    display: none;
+  }
+
+  .hiden { 
+    display: none;
+  }
+
   .grid-2-items ul {
     display: flex;
     padding: 2px;
-    gap: 12px;
+    gap: 5px;
+    margin-left: -50px;
   }
 
   .grid-2-items ul li {
@@ -729,7 +814,7 @@ footer {
     font-family: "Inter", serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: #f4f5f7;
     padding: 0 25px;
     margin-top: 50px;
@@ -750,9 +835,7 @@ footer {
   .corection {
     display: flex;
     justify-content: space-around;
-
-    /* flex-direction: ; */
-    height: 680px;
+    height: 400px;
   }
 
   .skills {
@@ -780,5 +863,6 @@ footer {
   .form-title {
     width: 360px;
     align-items: unset;
+    margin-top: 23px;
   }
 }
