@@ -15,7 +15,7 @@ body {
 nav {
   height: 45px;
   background: #3c3a39;
-  padding-top:9px;
+  padding-top: 9px;
 }
 
 nav ul {
@@ -43,10 +43,9 @@ nav ul li {
 }
 
 .magin {
-  display:flex;
+  display: flex;
   justify-content: space-around;
-  align-items: center
-
+  align-items: center;
 }
 
 .logo {
@@ -204,7 +203,7 @@ button {
 }
 
 .grid-2 {
-  width:325px;
+  width: 325px;
   background:
     linear-gradient(
       180.45deg,
@@ -416,7 +415,7 @@ button {
   line-height: 20px;
   color: #3c3a39;
   background: #fbf8f7;
-  height:50px;
+  height: 50px;
 }
 
 .line3 {
@@ -444,7 +443,7 @@ button {
   background-color: #ff6b00;
   align-self: center;
   width: 131px;
-  margin-right:118px;
+  margin-right: 118px;
   height: 35px;
   gap: 10px;
   font-family: "Inter", serif;
@@ -471,6 +470,16 @@ button {
   border: 1px solid #f55800;
 }
 
+nav ul li:hover {
+  background-color: #f55800;
+  transition: color 0.3s ease-in-out;
+  transition-duration: 2s;
+  color: #e5e5e5;
+  border: 1px solid #f55800;
+  padding: 8px 18px;
+}
+
+
 .grid-2-items li:hover {
   background-color: #f55800;
   transition: color 0.3s ease-in-out;
@@ -487,17 +496,8 @@ button {
   border: 1px solid #f55800;
 }
 
-nav ul li:hover {
-  background-color: #f55800;;
-  transition: color 0.3s ease-in-out;
-  transition-duration: 2s;
-  color: #e5e5e5;
-  border: 1px solid #f55800;
-  padding: 8px 18px;
-}
-
 .logo:hover {
-  background-color: #f55800;;
+  background-color: #f55800;
   transition: color 0.3s ease-in-out;
   transition-duration: 2s;
   color: #e5e5e5;
@@ -519,7 +519,6 @@ footer {
   margin-bottom: 4%;
   margin-top: 1%;
   color: #505f79;
-
 }
 
 .item1 {
@@ -529,13 +528,13 @@ footer {
 @media all and (min-width: 768px) {
   body {
     margin: 0;
-    padding: 0;  
+    padding: 0;
   }
 
   .none {
     display: hidden;
   }
-  
+
   nav a {
     text-decoration: none;
     color: #fff;
@@ -567,14 +566,15 @@ footer {
     margin: 4px;
     display: none;
   }
-  
+
   nav {
-    display:flex;
+    display: flex;
     align-items: center;
     height: 45px;
     background: #3c3a39;
-    padding-top:0px;
+    padding-top: 0;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -612,10 +612,11 @@ footer {
     line-height: 18px;
     color: #f1f1f1;
   }
-  .section-fir {
+
+  /* .section-fir {
     background-image: url("./image/first.png");
     background-image: none;
-  }
+  } */
 
   .section-fir {
     background-image: url(./image/illustration-header.png);
@@ -662,7 +663,7 @@ footer {
     font-weight: 700;
     font-size: 30px;
     line-height: 18px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .bnt-top {
@@ -699,8 +700,8 @@ footer {
   }
 
   .grid1 {
-    margin: 0px;
-    padding:8px 8px;
+    margin: 0;
+    padding: 8px 8px;
   }
 
   .grid1 li {
@@ -727,7 +728,6 @@ footer {
         rgba(38, 38, 38, 0.9) 91%
       ),
       url(./image/Img-Placeholder2.png);
-    
   }
 
   .grid-2h4 {
@@ -740,7 +740,7 @@ footer {
   }
 
   .item-bt {
-    display:none;
+    display: none;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: #ff6b00;
@@ -752,22 +752,22 @@ footer {
   }
 
   .item1 {
-    display:flex;
+    display: flex;
     text-align: center;
     background-color: #ff6b00;
     color: #fff;
-    padding:  5px 82px;
+    padding: 5px 82px;
     font-family: "Inter", serif;
     font-style: normal;
     font-size: 18px;
     margin-top: 96px;
   }
 
-  #hidden { 
+  #hidden {
     display: none;
   }
 
-  .hiden { 
+  .hiden {
     display: none;
   }
 
