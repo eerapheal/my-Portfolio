@@ -256,6 +256,9 @@ button {
   margin-right: 148px;
   gap: 12px;
   align-items: center;
+
+  /* margin-left: 45px; */
+  padding-right: 124px;
 }
 
 .item-bt {
@@ -423,6 +426,10 @@ button {
   color: #979493;
   border: none;
   margin-top: 3%;
+}
+
+.name-put {
+  display: none;
 }
 
 .name-input {
@@ -852,7 +859,7 @@ footer {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 8px;
-    margin-left: -10%;
+    padding-left: 46px;
   }
 
   .grid-2-items ul li {
@@ -965,6 +972,7 @@ footer {
 
   .name-put {
     border: none;
+    display: flex;
   }
 
   .name-input {
