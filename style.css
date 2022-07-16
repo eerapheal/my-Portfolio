@@ -494,7 +494,7 @@ button {
 #social-media:hover {
   animation-name: rotate;
   animation-duration: 0.7s;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 .contact-btn:hover {
