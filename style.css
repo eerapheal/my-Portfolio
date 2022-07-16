@@ -195,7 +195,7 @@ button {
 }
 
 .bnt-top:hover {
-  background-color: #e5e5e5;
+  background-color: #d8caca;
   transition: color 0.3s ease-in-out;
   transition-duration: 1s;
   color: #f55800;
@@ -498,7 +498,7 @@ button {
 }
 
 .contact-btn:hover {
-  background-color: #e5e5e5;
+  background-color: #eee6e6;
   transition-duration: 2s;
   color: #f55800;
   border: 1px solid #f55800;
