@@ -256,8 +256,6 @@ button {
   margin-right: 148px;
   gap: 12px;
   align-items: center;
-
-  /* margin-left: 45px; */
   padding-right: 124px;
 }
 
@@ -491,6 +489,12 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+}
+
+#social-media:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-delay: 2s;
 }
 
 .contact-btn:hover {
