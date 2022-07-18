@@ -198,7 +198,7 @@ button {
   background-color: #d8caca;
   transition: color 0.3s ease-in-out;
   transition-duration: 1s;
-  color: #f55800;
+  color: #643418;
   border: 1px solid #f55800;
 }
 
@@ -256,7 +256,7 @@ button {
   margin-right: 148px;
   gap: 12px;
   align-items: center;
-  padding-right: 124px;
+  padding-right: 130px;
 }
 
 .item-bt {
@@ -479,7 +479,7 @@ button {
   background-color: #ff6b00;
   align-self: center;
   width: 131px;
-  margin-right: 118px;
+  margin-right: 261px;
   height: 35px;
   gap: 10px;
   font-family: "Inter", serif;
@@ -857,7 +857,7 @@ footer {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 8px;
-    padding-left: 46px;
+    padding-left: 56px;
   }
 
   .grid-2-items ul li {
@@ -1095,13 +1095,13 @@ footer {
     flex-direction: column;
   }
 
-  .section-fir {
+  /* .section-fir {
     height: 800px;
     background-color: #1c1a19;
     background-image: url("./image/Illustration-header.png");
     background-repeat: no-repeat;
     background-position: 100% 89%;
-  }
+  } */
 
   nav {
     height: 75px;
