@@ -1103,13 +1103,6 @@ footer {
     flex-direction: column;
   }
 
-  .section-fir {
-    background-image: url("./image/first.png");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-image: none;
-  }
-
   nav {
     height: 75px;
     background: #3c3a39;
