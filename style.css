@@ -66,11 +66,10 @@ button {
 
 .section-fir {
   background-color: #1c1a19;
-  height: 550px;
   background-image: scr;
   background-image: url("./image/first.png");
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 100% 140%;
 }
 
 .headline-div {
@@ -647,8 +646,8 @@ footer {
     color: #f1f1f1;
   }
 
-  .im-g {
-    background-image: url("./image/Img-Placeholder2.png");
+  .section-fir {
+    background-image: url("./image/Illustration-header1.png");
     background-size: 45%;
     background-position: 100% -100%;
     background-repeat: no-repeat;
