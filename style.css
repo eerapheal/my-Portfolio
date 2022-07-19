@@ -647,10 +647,10 @@ footer {
     color: #f1f1f1;
   }
 
-  .section-fir {
+  .im-g {
     background-image: url("./image/illustration-header.png");
     background-size: 45%;
-    background-position: 100% -2.5em;
+    background-position: 100% -100%;
     background-repeat: no-repeat;
   }
 
@@ -1011,13 +1011,13 @@ footer {
     flex-direction: column;
   }
 
-  .section-fir {
+  /* .section-fir {
     height: 800px;
     background-color: #1c1a19;
     background-image: url("./image/Illustration-header.png");
     background-repeat: no-repeat;
     background-position: 100% 89%;
-  }
+  } */
 }
 
 @media all and (min-width: 1200px) {
@@ -1104,11 +1104,10 @@ footer {
   }
 
   .section-fir {
-    height: 800px;
-    background-color: #1c1a19;
-    background-image: url("./image/Illustration-header.png");
+    background-image: url("./image/first.png");
     background-repeat: no-repeat;
-    background-position: 100% 89%;
+    background-position: 100% 100%;
+    background-image: none;
   }
 
   nav {
