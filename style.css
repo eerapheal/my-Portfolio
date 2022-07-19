@@ -66,7 +66,7 @@ button {
 
 .section-fir {
   background-color: #1c1a19;
-  height: 550px;
+  /* height: 550px; */
   background-image: scr;
   background-image: url("./image/first.png");
   background-repeat: no-repeat;
@@ -648,7 +648,7 @@ footer {
   }
 
   .section-fir {
-    background-image: url("./image/illustration-header.png");
+    background-image: url("./image/Illustration-header1.png");
     background-size: 45%;
     background-position: 100% -2.5em;
     background-repeat: no-repeat;
