@@ -649,7 +649,7 @@ footer {
   .section-fir {
     background-image: url("./image/Illustration-header1.png");
     background-size: 45%;
-    background-position: 100% -100%;
+    background-position:top right;
     background-repeat: no-repeat;
   }
 
