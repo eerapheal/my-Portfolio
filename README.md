@@ -1,3 +1,5 @@
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
+
 ![](Screenshot1.png)
 ## Project Name
 My portfolio.
@@ -23,7 +25,10 @@ https://github.com/eerapheal/my-Portfolio
 npm install
 
 ## Author
-Ekpenisi Erue Raphael. GitHub: (https://github.com/eerapheal) Twitter: (https://twitter.com/ekpenisiraphael) LinkedIn: (https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
+Ekpenisi Erue Raphael. 
+![GitHub](https://github.com/eerapheal) 
+![Twitter](https://twitter.com/ekpenisiraphael) 
+![LinkedIn](https://www.linkedin.com/in/ekpenisi-e-raphael-9678a221a/)
 
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
