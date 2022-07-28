@@ -18,6 +18,26 @@
 
 <body>
   <header>
+    <nav class="navbar">
+      <a class="logo" href="#"></a>
+      <div class="main-div">
+      <ul class="nav-menu">
+        <li class="nav-items"><a href="#" class="nav-link">Portfolio</a></li>
+       <hr class="hrline">
+        <li class="nav-items"><a href="#" class="nav-link">About</a></li>
+        <hr class="hrline">
+        <li class="nav-items"><a href="#" class="nav-link">Contact</a></li>
+        <hr class="hrline">
+        <!-- <li class="nav-items"><a href="#" target="_blank"><img class="mais" src="image/Icon-Mail.png" alt="mail"></a></li> -->
+      </ul>
+    </div>
+      <div class="hamburger">
+        <span class="bars"></span>
+        <span class="bars"></span>
+        <span class="bars"></span>
+      </div>
+  </nav>
+</div>
     <nav>
       <div class ="magin">
       <a class="logo" href="#">Ralph03</a>
@@ -55,6 +75,33 @@
         </ul> 
       </div>
     </section>
+    <section class="popup" id="popup">
+      <div class="mainwindiv">
+        <div class="multi-header">
+        <h2 class="mu-ti">Multi Post Stories</h2> 
+        <h3 class="deskstopw">Keeping track of hundreds  of components website</h3>
+        <button class="close" onclick="closePopup()">&times;</button>
+      </div>
+        <div class="htm-btm">
+          <button class="htm" type="button">html</button>
+          <button class="popbtn" type="button">Bootstrap</button>
+          <button class="popbtn" type="">Ruby on rails</button>
+        </div>
+        <div vlass="img-div">
+        <img src="./image/Snapshoot Portfolio@2x.png" alt="img" width="311px"
+        height="220px"> 
+        <p class="pwin">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+        </p>
+        <div class="rubby-btn">
+          <button class="rubby" type="">Ruby on rails<img src="./image/sIcon.png" alt="live"></button>
+          <button class="rubby" type="">Ruby on rails<img src="./image/Grouiup.png" alt="github"></button>
+        </div>
+      </div>
+      </div>
+      <br>
+      <!-- <button class="open-btn" onclick="openPopup()" type="button">see projects</button> -->
+    </section>
     <section class="section2">
       <div class="second-heading">
         <h2 class="second-sec-heading">My Recent Works</h2>
@@ -75,7 +122,7 @@
           <li>bootsrap</li>
           <li>ruby</li>
         </ul>
-        <button class="bnt-top" type="button">See projests</button>
+        <button class="bnt-top" onclick="openPopup()" type="button">See projests</button>
        </div>
       </div>
       <!---->
@@ -90,7 +137,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item1" type="button">See Projests</button>
+          <button class="item1" onclick="openPopup()" type="button">See Projests</button>
         </div>
       </div>
       <!---->
@@ -104,7 +151,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item-bt" type="button">See projests</button>
+          <button class="item-bt" onclick="openPopup()" type="button">See projests</button>
         </div>
       </div>
       <!---->
@@ -118,7 +165,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item-bt" type="button">See projests</button>
+          <button class="item-bt" onclick="openPopup()" type="button">See projests</button>
         </div>
       </div>
       <!---->
@@ -132,7 +179,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item-bt" type="button">See projests</button>
+          <button class="item-bt" onclick="openPopup()" type="button">See projests</button>
         </div>
       </div>
       <!---->
@@ -146,7 +193,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item-bt" type="button">See projests</button>
+          <button class="item-bt" onclick="openPopup()" type="button">See projests</button>
         </div>
       </div>
       <!---->
@@ -160,7 +207,7 @@
             <li>bootsrap</li>
             <li>Ruby</li>
           </ul>
-          <button class="item-bt" type="button">See projests</button>
+          <button class="item-bt" onclick="openPopup()" type="button">See projests</button>
         </div>
       </div>
     </div>
@@ -239,10 +286,11 @@
             <div class="line3">
 
           </div>
-            <input class ="email-input" type="email" name="Email" placeholder="Email" required>
+            <input class ="email-input" id="text1" type="text" name="Email" placeholder="Email" required><br>
+            <label id="ibitext" style="color: red; visibility:hidden">Invalid. lowercase only</label>
             <div class="line3"></div>
             <textarea class="msg-input" name="Message" placeholder="Enter Text Here" maxlength="500" required cols="30" rows="10"></textarea>
-            <button class="contact-btn" type="submit">Get in touch</button>
+            <button class="contact-btn"  onclick="validate()" type="submit">Get in touch</button>
         </form>
       </article>
       <div class="line4"></div>
@@ -260,5 +308,50 @@
     </div>
     <div class="line5"></div>
   </footer>
+<!--  -->
+<script>
+  const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+
+
+
+
+hamburger.addEventListener("click", () => {
+hamburger.classList.toggle("active");
+navMenu.classList.toggle("active");
+})
+
+function validate() {
+
+var text =document.getElementById("text1").value;
+var regx = /^([a-z0-9\.-]+)@([a-z0-9-]+).([a-z]{2,20})(.[a-z]{2,8})?$/;
+
+if (regx.test(text)){
+document.getElementById("ibitext").innerHTML="valid";
+document.getElementById("ibitext").style.visibility="visible";
+document.getElementById("ibitext").style.color="green";
+}
+else {
+document.getElementById("ibitext").innerHTML="invalid (lowercase only)";
+document.getElementById("ibitext").style.visibility="visible";
+document.getElementById("ibitext").style.color="red";
+
+}
+}
+
+let popup = document.getElementById("popup");
+
+function openPop (){
+popup.classList.add("open-popup");
+}
+
+function closePopup () {
+popup.classList.remove("open-popup");
+}
+
+
+
+</script>
 </body>
 </html>
